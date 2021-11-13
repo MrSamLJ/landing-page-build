@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 200px 200px;
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+.nav {
+display: flex;
+justify-content: space-between
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.header-right {
+    margin-left: auto;
+}
+
+ul {
+    list-style-type: none;
+    color: white;
+}
+
+.fold {
+    margin: 100px 0 100px 0;
+    display: flex;
+}
+
+h1 {
+    color: white;
+    font-size: 48px
+}
+
+.secondary-text {
+    font-size: 18px;
+}
+
+button {
+    color: white;
+    padding: 5px 10px;
+    background-color: 3882F6;
+}
