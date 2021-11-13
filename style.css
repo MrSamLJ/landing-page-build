@@ -1,47 +1,144 @@
-body {
+/* body {
     display: flex;
     flex-direction: column;
-    padding: 0 0 200px 200px;
-}
+} */
 
 .hero {
     background-color: #1F2937;
+    padding: 0 200px;
 }
 
-.nav {
+nav, ul.ul-nav {
 display: flex;
-justify-content: space-between
+justify-content: space-between;
+margin-left: 0px;
+}
+
+ul {
+    list-style-type: none;
+    color: white;
+    width: 100%;
+    padding-left: 0px;
 }
 
 .logo {
     font-size: 24px;
 }
 
-.header-right {
-    margin-left: auto;
-}
-
-ul {
-    list-style-type: none;
-    color: white;
-}
+.right-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+ }
 
 .fold {
-    margin: 100px 0 100px 0;
+    margin: 100px 0 20px 0;
     display: flex;
+    align-items: flex-start;
+    padding-bottom: 100px;
 }
 
 h1 {
     color: white;
-    font-size: 48px
+    font-size: 48px;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 36px;
 }
 
 .secondary-text {
     font-size: 18px;
+    color: white;
 }
 
 button {
     color: white;
-    padding: 5px 10px;
-    background-color: 3882F6;
+    padding: 8px 20px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 120px;
+}
+
+button.button-one {
+    border: 0;
+}
+
+.fold-minus-img {
+    margin-right: 40px;
+    margin-top: 0px;
+}
+
+.grid-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    width: 260px;
+    display: flex;
+}
+
+figcaption {
+   text-align: center;
+   margin-top: 10px;
+}
+
+.quote-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 50px 380px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.quote-person {
+    font-weight: bold;
+    align-self: flex-end;
+    font-size: 20px;
+}
+
+.bottom-area {
+
+}
+
+.cta {
+   background-color:  #3882F6;
+   color: white;
+   display: flex;
+   margin: 100px 300px;
+   padding: 50px 100px;
+   justify-content: space-between;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button.cta-button {
+    border: 1px solid white;
+    align-self: end;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
 }
